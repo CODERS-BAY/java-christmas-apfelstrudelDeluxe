@@ -81,7 +81,7 @@ autoobject.color = "green";
 
 Wird nur einmal angelegt und kann von allen Objekten der Klasse aufgrrufen werden. 
 
-**static bei Methoden:** Existiren unabhängig vom Objekt und werden über eine Klase aufgerufen. (klassenname.methodenname)
+**static bei Methoden:** Existieren unabhängig vom Objekt und werden über eine Klase aufgerufen. (klassenname.methodenname)
 
 
 6. Wozu dient die Vererbung?
@@ -198,6 +198,15 @@ Beispiel im Detail: http://www.codeadventurer.de/?p=2631
 
 Mit "instanceof" wird geprüft, ob ein Objekt eine Instanz einer bestimmten Klasse ist. Subklassen sind z.B. automatisch immer auch eine Instanz von der Superklasse. Umgekehrt ist das nicht der Fall. Der Rückgabewert ist ein Boolean. (true oder false)
 
+```
+class Auto {...}
+class Motor extends Auto {...}
+
+autoObject1 = new Auto();
+motorObject1 = new Motor();
+
+System.out.println(motorObject1 instandeof Auto);   // true
+```
 
 
 
