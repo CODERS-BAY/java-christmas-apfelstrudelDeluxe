@@ -33,7 +33,7 @@ Mit Befehlen werden die Funktionen im Objekt benutzt.
 **Methoden im Objekt Auto: fahren, lenken**
 
 Obkejte haben Eigenschaften und Methoden.
-Alles mit Struktur und Details ist ein Objekt. Man muss ein Objekt nicht anfassen können. Es kann auch abstrakt sein wie z.B. 
+Alles mit Struktur und Details ist ein Objekt. Man muss ein Objekt nicht anfassen können. Es kann auch abstrakt sein.
 
 
 2. Gibt es OOP nur in Java?
